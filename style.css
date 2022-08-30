@@ -1,0 +1,19 @@
+.container {
+    display: grid;
+}
+.top-header {
+    display: grid;
+    grid-area: 1 / 2 / 2 / 3;
+    border: solid;
+}
+.search {
+    display: grid;
+}
+
+.header {
+    display: grid;
+}
+
+.sidebar {
+    grid-area: 1 / 1 / 2 / 1;
+}
