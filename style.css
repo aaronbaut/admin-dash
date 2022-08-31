@@ -17,3 +17,11 @@
 .sidebar {
     grid-area: 1 / 1 / 2 / 1;
 }
+
+.content {
+    grid-area: 2 / 2 / 3 / 3;
+}
+
+.announcements {
+    grid-area: 2 / 3 / 3 / 4;
+}
