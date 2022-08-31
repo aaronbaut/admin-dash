@@ -3,7 +3,7 @@
 }
 .top-header {
     display: grid;
-    grid-area: 1 / 2 / 2 / 3;
+    grid-area: 1 / 2 / 2 / 4;
     border: solid;
 }
 .search {
