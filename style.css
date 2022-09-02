@@ -42,7 +42,6 @@ li {
 
 .content {
     grid-area: 2 / 2 / 3 / 4;  
-    b 
 }
 .projects {
     display: grid;
@@ -51,9 +50,17 @@ li {
     
 }
 
+.card-title {
+    font-weight: 900;
+}
+.card {
+    border-radius: 5%;
+}
+
 .card, .top-header,
 .announce-text, .tags
  {
+    padding: 1rem;
     background-color: white;
 }
 
