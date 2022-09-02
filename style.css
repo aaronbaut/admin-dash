@@ -55,12 +55,14 @@ li {
 }
 .card {
     border-radius: 5%;
+    box-shadow: inset .5em 0 orange;
+    font-size: .9rem;
 }
 
 .card, .top-header,
 .announce-text, .tags
  {
-    padding: 1rem;
+    padding: 1.5rem;
     background-color: white;
 }
 
