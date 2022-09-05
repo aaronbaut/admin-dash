@@ -9,10 +9,15 @@
     grid-area: 1 / 2 / 2 / 5;
     border: solid;
 }
+
 .search {
-    display: grid;
+    grid-area: 1 / 1 / 2 / 2;
 }
 
+.profile-settings {
+    grid-area: 1 / 2 / 2 / 3;
+    display: flex;
+}
 .header {
     display: grid;
 }
