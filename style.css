@@ -24,8 +24,16 @@
     display: flex;
     justify-content: space-evenly;
 }
-.header {
+.bot-header {
     display: grid;
+}
+
+.intro {
+    grid-area: 1 / 1 / 1 / 1;
+}
+
+.interactions {
+    grid-area: 1 / 2 / 2 / 3;
 }
 
 .sidebar {
