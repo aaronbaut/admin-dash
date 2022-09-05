@@ -12,11 +12,17 @@
 
 .search {
     grid-area: 1 / 1 / 2 / 2;
+    display: flex;
+}
+
+.search>input {
+    flex: 1 2;
 }
 
 .profile-settings {
     grid-area: 1 / 2 / 2 / 3;
     display: flex;
+    justify-content: space-evenly;
 }
 .header {
     display: grid;
