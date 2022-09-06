@@ -33,7 +33,13 @@
 .interactions {
     grid-area: 2 / 3 / 3 / 4;
     grid-template-columns: 1fr;
-}
+    align-self: center;
+    display: flex;
+    justify-content: space-around;
+    
+}   
+
+
 
 .interactions>button {
     border-radius: 45%;
