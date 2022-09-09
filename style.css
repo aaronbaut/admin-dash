@@ -104,9 +104,11 @@ li {
 
 .announce-text>p {
     display:flex;
-
     overflow: hidden;
     text-overflow: ellipsis;
     font-size: .8rem;
-    width:30ch;
+    width: 25ch;
+    height: 7ch;
+    border-bottom: solid;
+    align-self: center;
 }
