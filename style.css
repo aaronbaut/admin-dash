@@ -113,6 +113,9 @@ li {
     border-bottom: solid;
     align-self: center;
 }
+.side-title>li::before {
+    content: url(img/checkerboard.png)
+}
 
 .main>:nth-child(1)::before {
     content: url(img/home.png);
@@ -127,3 +130,24 @@ li {
     content: url(img/message.png);
 }
 
+.main>:nth-child(4)::before {
+    content: url(img/clock-time-eight-outline.png);
+}
+
+.main>:nth-child(5)::before {
+    content: url(img/note-check-outline.png);
+}
+.main>:nth-child(6)::before {
+    content: url(img/account-multiple.png);
+}
+
+.settings>:nth-child(1)::before {
+    content: url(img/cog-outline.png);
+}
+
+.settings>:nth-child(2)::before {
+    content: url(img/help-circle-outline.png);
+}
+.settings>:nth-child(3)::before {
+    content: url(img/shield-check.png);
+}
