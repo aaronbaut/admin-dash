@@ -115,14 +115,15 @@ li {
 }
 
 .main>:nth-child(1)::before {
-    content: url(home.png);
+    content: url(img/home.png);
     padding-right: 10px;
 }
 
 .main>:nth-child(2)::before {
-    content: url(badge-account-horizontal.png);
+    content: url(img/badge-account-horizontal.png);
 }
 
 .main>:nth-child(3)::before {
-    content: url(message.png);
+    content: url(img/message.png);
 }
+
