@@ -10,11 +10,21 @@
     border: solid;
 }
 
+
 .search {
     grid-area: 1 / 1 / 2 / 3;
     display: flex;
 }
-
+.search>button {
+    background-image: url(img/magnify\ \(1\).png);
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    height: 30px;
+    width: 30px;
+    border: none;
+    background-color: white;
+    padding-right: 50px;
+}
 .search>input {
     flex: 1 2;
 }
@@ -71,6 +81,10 @@ li {
 
 }
 
+.header {
+    font-size: 1.3rem;
+    font-weight: bold;
+}
 
 .content {
     grid-area: 2 / 2 / 3 / 4;  
