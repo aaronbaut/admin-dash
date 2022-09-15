@@ -1,6 +1,6 @@
 :root{
-    --but-width: 30px;
-    --but-height: 30px;
+    --but-width: 28px;
+    --but-height: 28px;
 }
 .container {
     display: grid;
@@ -110,8 +110,13 @@ li {
 }
 
 .star {
-    width: 50px;
-    height:
+    width: var(--but-width);
+    height: var(--but-height); 
+    border: none;
+    background-position: 50% 50%;
+    background-image: no-repeat;
+    background-color: white;
+    background-image: url(img/star-plus-outline\ \(1\).png);
 }
 
 .card, .top-header,
