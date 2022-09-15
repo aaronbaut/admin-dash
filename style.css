@@ -114,9 +114,29 @@ li {
     height: var(--but-height); 
     border: none;
     background-position: 50% 50%;
-    background-image: no-repeat;
+    background-repeat: no-repeat;
     background-color: white;
     background-image: url(img/star-plus-outline\ \(1\).png);
+}
+
+.watch {
+    width: var(--but-width);
+    height: var(--but-height); 
+    border: none;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-color: white;
+    background-image: url(img/eye-plus-outline.png);
+}
+
+.share {
+    width: var(--but-width);
+    height: var(--but-height); 
+    border: none;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-color: white;
+    background-image: url(img/share-variant.png);
 }
 
 .card, .top-header,
