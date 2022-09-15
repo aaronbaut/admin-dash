@@ -1,3 +1,7 @@
+:root{
+    --but-width: 30px;
+    --but-height: 30px;
+}
 .container {
     display: grid;
     gap: 15px;
@@ -19,8 +23,8 @@
     background-image: url(img/magnify\ \(1\).png);
     background-repeat: no-repeat;
     background-position: 50% 50%;
-    height: 30px;
-    width: 30px;
+    width: var(--but-width);
+    height: var(--but-height);     
     border: none;
     background-color: white;
     padding-right: 50px;
@@ -103,6 +107,11 @@ li {
     border-radius: 5%;
     box-shadow: inset .5em 0 orange;
     font-size: .9rem;
+}
+
+.star {
+    width: 50px;
+    height:
 }
 
 .card, .top-header,
