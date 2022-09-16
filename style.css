@@ -107,8 +107,12 @@ li {
     border-radius: 5%;
     box-shadow: inset .5em 0 orange;
     font-size: .9rem;
+    display: grid;
 }
-
+.icon {
+ 
+ 
+}
 .star {
     width: var(--but-width);
     height: var(--but-height); 
