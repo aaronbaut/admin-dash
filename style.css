@@ -109,8 +109,8 @@ li {
     font-size: .9rem;
     display: grid;
 }
-.icon {
- 
+.icons {
+    margin-left: auto;
  
 }
 .star {
