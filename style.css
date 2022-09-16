@@ -1,6 +1,7 @@
 :root{
     --but-width: 28px;
     --but-height: 28px;
+    --pad-icon: 20px;
 }
 .container {
     display: grid;
@@ -81,7 +82,7 @@ ul li{
 }
 
 li {
-    padding: .3rem;
+    padding: .8rem;
     list-style: none;
     font-size: 1.5rem;
 
@@ -174,35 +175,43 @@ li {
 
 .main>:nth-child(1)::before {
     content: url(img/home.png);
-    padding-right: 10px;
+    padding-right: var(--pad-icon);
 }
 
 .main>:nth-child(2)::before {
     content: url(img/badge-account-horizontal.png);
+    padding-right: var(--pad-icon);
 }
 
 .main>:nth-child(3)::before {
     content: url(img/message.png);
+    padding-right: var(--pad-icon);
 }
 
 .main>:nth-child(4)::before {
     content: url(img/clock-time-eight-outline.png);
+    padding-right: var(--pad-icon);
 }
 
 .main>:nth-child(5)::before {
     content: url(img/note-check-outline.png);
+    padding-right: var(--pad-icon);
 }
 .main>:nth-child(6)::before {
     content: url(img/account-multiple.png);
+    padding-right: var(--pad-icon);
 }
 
 .settings>:nth-child(1)::before {
     content: url(img/cog-outline.png);
+    padding-right: var(--pad-icon);
 }
 
 .settings>:nth-child(2)::before {
     content: url(img/help-circle-outline.png);
+    padding-right: var(--pad-icon);
 }
 .settings>:nth-child(3)::before {
     content: url(img/shield-check.png);
+    padding-right: var(--pad-icon);
 }
